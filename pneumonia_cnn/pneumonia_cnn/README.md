@@ -45,5 +45,18 @@ The AUC jump demonstrates far better class separation.
 
 ---
 
-## Repository Structure
+
+## Reproducibility
+Due to GitHub file size limits, trained weights are not stored in the repository.
+
+To regenerate:
+1. Run the notebook or training script.
+2. The model will be saved as `resnet18_weighted_best.pth`.
+3. Use `evaluate.py` for testing.
+
+---
+
+## Detailed Report
+See: Classification_report.pdf
+
 
